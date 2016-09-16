@@ -56,15 +56,21 @@ h3. Start the Interpreter
 Start the included <code>sbt console</code>.
 
 <pre>
-$ sbt console
-
-[...]
-
-Welcome to Scala version 2.8.0.final (Java HotSpot(TM) 64-Bit Server VM, Java 1.6.0_20).
-Type in expressions to have them evaluated.
-Type :help for more information.
-
-scala>
+$ sbt
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=256m; support was removed in 8.0
+[info] Set current project to ...
+> ++2.11.8
+[info] Setting version to 2.11.8
+[info] Reapplying settings...
+[info] Set current project to ...
+> console
+[info] Starting scala interpreter...
+[info]
+Welcome to Scala 2.11.8 (Java HotSpot(TM) 64-Bit Server VM, Java 1.8.0_102).
+Type in expressions for evaluation. Or try :help.
+scala> :quit
+> exit
+$ ...
 </pre>
 
 
