@@ -130,10 +130,13 @@ class AddOne extends (Int => Int) {
 
 h2(#package). Packages
 
-You can organize your code inside of packages.
+You can organize your code inside of packages (Note that you should enter "paste mode":https://issues.scala-lang.org/browse/SI-5299 in the sbt console).
 
 <pre>
+scala> :paste -raw
+// Entering paste mode (ctrl-D to finish)
 package com.twitter.example
+// Exiting paste mode, now interpreting.
 </pre>
 
 at the top of a file will declare everything in the file to be in that package.
